@@ -18,13 +18,25 @@
             font-family: 'Noto Sans JP', sans-serif;
         }
 
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6 {
+        .azul {
+            color: #0000FF;
+            font-weight: 500;
+            font-family: 'Noto Sans JP', sans-serif;
+        }
+
+        .vermelho {
+            color: #FF0000;
+            font-weight: 400;
+            font-family: 'Noto Sans JP', sans-serif;
+        }
+    </style>
+
+    <style>
+        #titulo {
+            color: #00FF00;
+            font-size: 1.1em;
             margin: 0px;
+            padding: 0px;
         }
     </style>
 </head>
@@ -43,8 +55,8 @@
 
         <div style="margin-left: 30%; 
                     width: 70%;">
-            <h2>Jonas Alberto Dhein</h2>
-            <h5>Título inferior</h5>
+            <h2 class="azul">Jonas Alberto Dhein</h2>
+            <h5 id="titulo">Título inferior</h5>
         </div>
 
     </header>
@@ -58,15 +70,15 @@
     <section style="width: 70%;">
         <!-- DIV = Bloco padrão dentro do HTML, normalmente sem pré-formatação-->
         <div>
-            <h3>Experiência</h3>
+            <h3 class="vermelho">Experiência</h3>
 
-            <table width="100%" >
+            <table width="100%">
                 <tr style="vertical-align: top;">
                     <td>
                         <em>2018 - atualmente</em>
                     </td>
                     <td>
-                        <h4>UNIVATES</h4>
+                        <h4 class="vermelho">UNIVATES</h4>
                         <ul>
                             <!--ul => Lista de itens -->
                             <li>Professor - Curso Técnico em Informática</li>
@@ -93,7 +105,7 @@
 
         <div>
             <h3>Educação</h3>
-            <table width="100%" >
+            <table width="100%">
                 <tr style="vertical-align: top;">
                     <td style="width: 100px;">
                         <em>2015</em>
